@@ -29,7 +29,7 @@ requirements:
     - {{ posix }}make
     - {{ posix }}sed               # [win]
     - {{ posix }}coreutils         # [win]
-    - {{ posix }}zip               # [win]
+    - {{ posix }}gzip              # [win]
     - {{ posix }}tar               # [win]
   host:
     - r-base
