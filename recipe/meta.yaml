@@ -13,7 +13,7 @@ source:
   sha256: 5a36fabb6d62ba2533d3fc4cececd07891942cfb76fe689ec0d550d08762f61c
 
 build:
-  number: 2
+  number: 3
   skip: true  # [win32]
   rpaths:
     - lib/R/lib/
@@ -35,6 +35,7 @@ requirements:
   host:
     - r-base
     - libpng   # [not win]
+    - zlib
   run:
     - r-base
 
