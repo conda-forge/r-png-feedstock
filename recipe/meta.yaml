@@ -1,4 +1,4 @@
-{% set version = "0.1-8" %}
+{% set version = "0.1-9" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -10,10 +10,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/png_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/png/png_{{ version }}.tar.gz
-  sha256: 5a36fabb6d62ba2533d3fc4cececd07891942cfb76fe689ec0d550d08762f61c
+  sha256: 0b8502363c6f5c73cf284dee4fd1416f5adf4115b6ae9a1e09531c143b978589
 
 build:
-  number: 3
+  number: 0
   skip: true  # [win32]
   rpaths:
     - lib/R/lib/
