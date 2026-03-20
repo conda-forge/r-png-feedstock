@@ -3,7 +3,7 @@
 
 package:
   name: r-png
-  version: {{ version|replace("-", "_") }}
+  version: "{{ version|replace("-", "_") }}"
 
 source:
   fn: png_{{ version }}.tar.gz
